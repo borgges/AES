@@ -1,0 +1,18 @@
+ AES Bot 5/agosto
+
+termux-setup-storage
+
+pkg update && pkg upgrade
+
+pkg install git
+
+git clone https://github.com/borgges/AES.git
+
+pkg install nodejs
+
+cd AES
+
+npm i -g cwebp && npm i -g ytdl && npm i  && npm i got
+
+Apos finalizar use 
+npm start
